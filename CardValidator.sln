@@ -5,6 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator", "CreditCardValidator\CreditCardValidator.csproj", "{C6D063FE-CB47-4E23-93F4-415372465ECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.Service", "CreditCardValidator.Service\CreditCardValidator.Service.csproj", "{1601D49F-5A51-4B9C-A964-C55313166159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.Repository", "CreditCardValidator.Repository\CreditCardValidator.Repository.csproj", "{8BA475AC-2FCF-410D-9E85-6BD766AA5572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.Data", "CreditCardValidator.Data\CreditCardValidator.Data.csproj", "{633FA41A-1339-41B7-896C-1DF5FF9AE1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.Model", "CreditCardValidator.Model\CreditCardValidator.Model.csproj", "{76453FA4-E4CE-43FC-B54C-352F8DAA012C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +26,21 @@ Global
 		{C6D063FE-CB47-4E23-93F4-415372465ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D063FE-CB47-4E23-93F4-415372465ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6D063FE-CB47-4E23-93F4-415372465ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1601D49F-5A51-4B9C-A964-C55313166159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1601D49F-5A51-4B9C-A964-C55313166159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1601D49F-5A51-4B9C-A964-C55313166159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1601D49F-5A51-4B9C-A964-C55313166159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA475AC-2FCF-410D-9E85-6BD766AA5572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA475AC-2FCF-410D-9E85-6BD766AA5572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA475AC-2FCF-410D-9E85-6BD766AA5572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA475AC-2FCF-410D-9E85-6BD766AA5572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{633FA41A-1339-41B7-896C-1DF5FF9AE1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633FA41A-1339-41B7-896C-1DF5FF9AE1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633FA41A-1339-41B7-896C-1DF5FF9AE1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633FA41A-1339-41B7-896C-1DF5FF9AE1DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76453FA4-E4CE-43FC-B54C-352F8DAA012C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76453FA4-E4CE-43FC-B54C-352F8DAA012C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76453FA4-E4CE-43FC-B54C-352F8DAA012C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76453FA4-E4CE-43FC-B54C-352F8DAA012C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
