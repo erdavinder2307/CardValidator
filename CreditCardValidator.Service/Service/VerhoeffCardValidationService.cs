@@ -1,5 +1,8 @@
 using System.Text.RegularExpressions;
 
+/// <summary>
+/// Provides methods to validate credit card numbers using the Verhoeff algorithm.
+/// </summary>
 public class VerhoeffCardValidationService : ICardValidationService
 {
     private static int[,] d = new int[,] {
@@ -28,6 +31,11 @@ public class VerhoeffCardValidationService : ICardValidationService
 
     private static int[] inv = new int[] { 0, 4, 3, 2, 1, 5, 6, 7, 8, 9 };
 
+    /// <summary>
+    /// Validates a credit card number using the Verhoeff algorithm.
+    /// </summary>
+    /// <param name="cardNumber">The credit card number to validate.</param>
+    /// <returns>True if the credit card number is valid, otherwise false.</returns>
     public bool ValidateCard(string cardNumber)
     {
         int c = 0;
@@ -51,6 +59,4 @@ public class VerhoeffCardValidationService : ICardValidationService
         Array.Reverse(myArray);
         return myArray;
     }
-
-
 }
