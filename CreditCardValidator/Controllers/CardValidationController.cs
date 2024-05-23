@@ -30,32 +30,39 @@ public class CardValidationController : ControllerBase
     /// [HttpPost]
     public IActionResult LuhnCardValidation(CardDetailsRequest cardDetails)
     {
-        bool isValid = _luhnCardValidationService.ValidateCard(cardDetails.CardNumber) &&
-                       _cardDetailsValidationService.ValidateCardHolderName(cardDetails.CardHolderName) &&
-                       _cardDetailsValidationService.ValidateCVV(cardDetails.CVV) &&
-                       _cardDetailsValidationService.ValidateExpiryDate(cardDetails.ExpiryMonth, cardDetails.ExpiryYear);
-
-        if (isValid)
+        try
         {
-            var response = new CardValidationResponse
-            {
-                IsValid = true,
-                Message = "Card is valid.",
-                CardNumber = cardDetails.CardNumber,
-            };
+            bool isValid = _luhnCardValidationService.ValidateCard(cardDetails.CardNumber) &&
+                           _cardDetailsValidationService.ValidateCardHolderName(cardDetails.CardHolderName) &&
+                           _cardDetailsValidationService.ValidateCVV(cardDetails.CVV) &&
+                           _cardDetailsValidationService.ValidateExpiryDate(cardDetails.ExpiryMonth, cardDetails.ExpiryYear);
 
-            return Ok(response);
+            if (isValid)
+            {
+                var response = new CardValidationResponse
+                {
+                    IsValid = true,
+                    Message = "Card is valid.",
+                    CardNumber = cardDetails.CardNumber,
+                };
+
+                return Ok(response);
+            }
+            else
+            {
+                var response = new CardValidationResponse
+                {
+                    IsValid = false,
+                    Message = "Card is invalid.",
+                    CardNumber = cardDetails.CardNumber,
+                };
+
+                return BadRequest(response);
+            }
         }
-        else
+        catch (Exception ex)
         {
-            var response = new CardValidationResponse
-            {
-                IsValid = false,
-                Message = "Card is invalid.",
-                CardNumber = cardDetails.CardNumber,
-            };
-
-            return BadRequest(response);
+            return BadRequest(ex.Message);
         }
     }
 }
