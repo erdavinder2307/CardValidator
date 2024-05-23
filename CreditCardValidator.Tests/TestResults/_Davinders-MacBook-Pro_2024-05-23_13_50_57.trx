@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="818a8b1e-492f-4bf9-a26d-5963869338a3" name="@Davinders-MacBook-Pro 2024-05-23 13:50:57" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-05-23T13:50:57.1965070+05:30" queuing="2024-05-23T13:50:57.1965070+05:30" start="2024-05-23T13:50:56.6458970+05:30" finish="2024-05-23T13:50:57.2006850+05:30" />
+  <TestSettings name="default" id="23dd2659-3208-4153-b5f2-9d50b28e6e6e">
+    <Deployment runDeploymentRoot="_Davinders-MacBook-Pro_2024-05-23_13_50_57" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="66a22ba7-a740-4562-bb11-adcb58803274" testId="dcbabdfc-22a4-9f63-95fe-5a5cae371bb4" testName="CreditCardValidator.Tests.LuhnCardValidationServiceTest.ValidateCard_WhenCardIsValid_ReturnsTrue" computerName="Davinders-MacBook-Pro" duration="00:00:00.0039377" startTime="2024-05-23T13:50:57.0651420+05:30" endTime="2024-05-23T13:50:57.0651420+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66a22ba7-a740-4562-bb11-adcb58803274" />
+    <UnitTestResult executionId="37eb4ab1-3e27-48eb-b637-06a3160ed065" testId="505096bc-a9f3-913d-9e7e-762b1d954083" testName="CreditCardValidator.Tests.CreditCardValidatorTests.LuhnCardValidation_WhenCardIsInvalid_ReturnsBadRequest" computerName="Davinders-MacBook-Pro" duration="00:00:00.0014438" startTime="2024-05-23T13:50:57.1185020+05:30" endTime="2024-05-23T13:50:57.1185020+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37eb4ab1-3e27-48eb-b637-06a3160ed065" />
+    <UnitTestResult executionId="b43b5b84-98e5-4915-ba66-d8113b4c2b3a" testId="c6277381-0725-b1e7-8cb1-a579d2ff4c23" testName="CreditCardValidator.Tests.VerhoeffCardValidationServiceTest.ValidateCard_WhenCardIsValid_ReturnsTrue" computerName="Davinders-MacBook-Pro" duration="00:00:00.0000553" startTime="2024-05-23T13:50:57.0658250+05:30" endTime="2024-05-23T13:50:57.0658250+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b43b5b84-98e5-4915-ba66-d8113b4c2b3a" />
+    <UnitTestResult executionId="8d51ad6b-f6b5-4421-ad51-fdeba2457bbc" testId="d71b3d55-e912-d4e3-e40e-1faa15c82f5a" testName="CreditCardValidator.Tests.LuhnCardValidationServiceTest.ValidateCard_WhenCardIsInvalid_ReturnsFalse" computerName="Davinders-MacBook-Pro" duration="00:00:00.0000652" startTime="2024-05-23T13:50:57.0658400+05:30" endTime="2024-05-23T13:50:57.0658400+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d51ad6b-f6b5-4421-ad51-fdeba2457bbc" />
+    <UnitTestResult executionId="e4b8fc08-6451-4c01-a3bc-73f8d066a11e" testId="8b3d4f3e-7cea-8aee-2948-4cdb74eacb80" testName="CreditCardValidator.Tests.CreditCardValidatorTests.LuhnCardValidation_WhenCardIsValid_ReturnsOk" computerName="Davinders-MacBook-Pro" duration="00:00:00.0595802" startTime="2024-05-23T13:50:57.1170810+05:30" endTime="2024-05-23T13:50:57.1170810+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4b8fc08-6451-4c01-a3bc-73f8d066a11e" />
+    <UnitTestResult executionId="e809c046-d452-4cbf-9879-a45c74a1d24a" testId="64424b32-f38b-3231-5b4e-4f2866886736" testName="CreditCardValidator.Tests.VerhoeffCardValidationServiceTest.ValidateCard_WhenCardIsInvalid_ReturnsFalse" computerName="Davinders-MacBook-Pro" duration="00:00:00.0039638" startTime="2024-05-23T13:50:57.0634640+05:30" endTime="2024-05-23T13:50:57.0634780+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e809c046-d452-4cbf-9879-a45c74a1d24a" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CreditCardValidator.Tests.VerhoeffCardValidationServiceTest.ValidateCard_WhenCardIsValid_ReturnsTrue" storage="/users/davinderpal/code/cardvalidator/creditcardvalidator.tests/bin/debug/net8.0/creditcardvalidator.tests.dll" id="c6277381-0725-b1e7-8cb1-a579d2ff4c23">
+      <Execution id="b43b5b84-98e5-4915-ba66-d8113b4c2b3a" />
+      <TestMethod codeBase="/Users/davinderpal/Code/CardValidator/CreditCardValidator.Tests/bin/Debug/net8.0/CreditCardValidator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CreditCardValidator.Tests.VerhoeffCardValidationServiceTest" name="ValidateCard_WhenCardIsValid_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="CreditCardValidator.Tests.CreditCardValidatorTests.LuhnCardValidation_WhenCardIsValid_ReturnsOk" storage="/users/davinderpal/code/cardvalidator/creditcardvalidator.tests/bin/debug/net8.0/creditcardvalidator.tests.dll" id="8b3d4f3e-7cea-8aee-2948-4cdb74eacb80">
+      <Execution id="e4b8fc08-6451-4c01-a3bc-73f8d066a11e" />
+      <TestMethod codeBase="/Users/davinderpal/Code/CardValidator/CreditCardValidator.Tests/bin/Debug/net8.0/CreditCardValidator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CreditCardValidator.Tests.CreditCardValidatorTests" name="LuhnCardValidation_WhenCardIsValid_ReturnsOk" />
+    </UnitTest>
+    <UnitTest name="CreditCardValidator.Tests.LuhnCardValidationServiceTest.ValidateCard_WhenCardIsInvalid_ReturnsFalse" storage="/users/davinderpal/code/cardvalidator/creditcardvalidator.tests/bin/debug/net8.0/creditcardvalidator.tests.dll" id="d71b3d55-e912-d4e3-e40e-1faa15c82f5a">
+      <Execution id="8d51ad6b-f6b5-4421-ad51-fdeba2457bbc" />
+      <TestMethod codeBase="/Users/davinderpal/Code/CardValidator/CreditCardValidator.Tests/bin/Debug/net8.0/CreditCardValidator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CreditCardValidator.Tests.LuhnCardValidationServiceTest" name="ValidateCard_WhenCardIsInvalid_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="CreditCardValidator.Tests.CreditCardValidatorTests.LuhnCardValidation_WhenCardIsInvalid_ReturnsBadRequest" storage="/users/davinderpal/code/cardvalidator/creditcardvalidator.tests/bin/debug/net8.0/creditcardvalidator.tests.dll" id="505096bc-a9f3-913d-9e7e-762b1d954083">
+      <Execution id="37eb4ab1-3e27-48eb-b637-06a3160ed065" />
+      <TestMethod codeBase="/Users/davinderpal/Code/CardValidator/CreditCardValidator.Tests/bin/Debug/net8.0/CreditCardValidator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CreditCardValidator.Tests.CreditCardValidatorTests" name="LuhnCardValidation_WhenCardIsInvalid_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="CreditCardValidator.Tests.LuhnCardValidationServiceTest.ValidateCard_WhenCardIsValid_ReturnsTrue" storage="/users/davinderpal/code/cardvalidator/creditcardvalidator.tests/bin/debug/net8.0/creditcardvalidator.tests.dll" id="dcbabdfc-22a4-9f63-95fe-5a5cae371bb4">
+      <Execution id="66a22ba7-a740-4562-bb11-adcb58803274" />
+      <TestMethod codeBase="/Users/davinderpal/Code/CardValidator/CreditCardValidator.Tests/bin/Debug/net8.0/CreditCardValidator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CreditCardValidator.Tests.LuhnCardValidationServiceTest" name="ValidateCard_WhenCardIsValid_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="CreditCardValidator.Tests.VerhoeffCardValidationServiceTest.ValidateCard_WhenCardIsInvalid_ReturnsFalse" storage="/users/davinderpal/code/cardvalidator/creditcardvalidator.tests/bin/debug/net8.0/creditcardvalidator.tests.dll" id="64424b32-f38b-3231-5b4e-4f2866886736">
+      <Execution id="e809c046-d452-4cbf-9879-a45c74a1d24a" />
+      <TestMethod codeBase="/Users/davinderpal/Code/CardValidator/CreditCardValidator.Tests/bin/Debug/net8.0/CreditCardValidator.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="CreditCardValidator.Tests.VerhoeffCardValidationServiceTest" name="ValidateCard_WhenCardIsInvalid_ReturnsFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="dcbabdfc-22a4-9f63-95fe-5a5cae371bb4" executionId="66a22ba7-a740-4562-bb11-adcb58803274" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="505096bc-a9f3-913d-9e7e-762b1d954083" executionId="37eb4ab1-3e27-48eb-b637-06a3160ed065" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6277381-0725-b1e7-8cb1-a579d2ff4c23" executionId="b43b5b84-98e5-4915-ba66-d8113b4c2b3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d71b3d55-e912-d4e3-e40e-1faa15c82f5a" executionId="8d51ad6b-f6b5-4421-ad51-fdeba2457bbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8b3d4f3e-7cea-8aee-2948-4cdb74eacb80" executionId="e4b8fc08-6451-4c01-a3bc-73f8d066a11e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64424b32-f38b-3231-5b4e-4f2866886736" executionId="e809c046-d452-4cbf-9879-a45c74a1d24a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.2)
+[xUnit.net 00:00:00.05]   Discovering: CreditCardValidator.Tests
+[xUnit.net 00:00:00.07]   Discovered:  CreditCardValidator.Tests
+[xUnit.net 00:00:00.07]   Starting:    CreditCardValidator.Tests
+[xUnit.net 00:00:00.16]   Finished:    CreditCardValidator.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
