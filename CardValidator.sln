@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.Data", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.Model", "CreditCardValidator.Model\CreditCardValidator.Model.csproj", "{76453FA4-E4CE-43FC-B54C-352F8DAA012C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.Tests", "CreditCardValidator.Tests\CreditCardValidator.Tests.csproj", "{07BDA81C-B081-4759-9519-C681D9FCE2F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{76453FA4-E4CE-43FC-B54C-352F8DAA012C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76453FA4-E4CE-43FC-B54C-352F8DAA012C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76453FA4-E4CE-43FC-B54C-352F8DAA012C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BDA81C-B081-4759-9519-C681D9FCE2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BDA81C-B081-4759-9519-C681D9FCE2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BDA81C-B081-4759-9519-C681D9FCE2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BDA81C-B081-4759-9519-C681D9FCE2F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
