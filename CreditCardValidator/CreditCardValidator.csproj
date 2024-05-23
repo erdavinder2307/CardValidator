@@ -10,5 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
+    <ItemGroup>
+    <ProjectReference Include="..\CreditCardValidator.Service\CreditCardValidator.Service.csproj" />
+      <ProjectReference Include="..\CreditCardValidator.Model\CreditCardValidator.Model.csproj" />
+  </ItemGroup>
 
 </Project>
