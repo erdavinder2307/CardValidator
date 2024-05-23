@@ -9,16 +9,25 @@ public class CardValidationController : ControllerBase
 {
     private readonly ICardValidationService _luhnCardValidationService;
     private readonly ICardDetailsValidationService _cardDetailsValidationService;
-    public CardValidationController(ICardValidationService luhnCardValidationService,
 
-    ICardDetailsValidationService cardDetailsValidationService)
+    /// <summary>
+    /// Initializes a new instance of the <see cref="CardValidationController"/> class.
+    /// </summary>
+    /// <param name="luhnCardValidationService">The service for Luhn card validation.</param>
+    /// <param name="cardDetailsValidationService">The service for card details validation.</param>
+    public CardValidationController(ICardValidationService luhnCardValidationService,
+                                    ICardDetailsValidationService cardDetailsValidationService)
     {
         _luhnCardValidationService = luhnCardValidationService;
         _cardDetailsValidationService = cardDetailsValidationService;
     }
 
-
-    [HttpPost]
+    /// <summary>
+    /// Validates a credit card using the Luhn algorithm and additional card details.
+    /// </summary>
+    /// <param name="cardDetails">The card details to validate.</param>
+    /// <returns>An <see cref="IActionResult"/> representing the result of the validation.</returns>
+    /// [HttpPost]
     public IActionResult LuhnCardValidation(CardDetailsRequest cardDetails)
     {
         bool isValid = _luhnCardValidationService.ValidateCard(cardDetails.CardNumber) &&
